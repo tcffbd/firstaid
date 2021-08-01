@@ -1,0 +1,76 @@
+img#logo {
+    max-width: 100px;
+    display: block;
+    float: left;
+}
+
+.spacer {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+h1.title {
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+nav.navbar {
+    background: #014e01;
+}
+
+#home-slider {
+    background: url(~assets/images/home/slider-bg.png) 0 100% repeat-x;
+    position: relative;
+}
+
+a.nuxt-link-active {
+    color: red!important;
+}
+
+footer#footer {
+    background: #eceaea;
+    padding: 20px 0;
+}
+
+a.btn.btn-success {
+    color: #fff!important;
+}
+
+img#footer-top {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.scaleIn {
+    -webkit-animation-name: scaleIn;
+    animation-name: scaleIn;
+}
+
+@-webkit-keyframes scaleIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
